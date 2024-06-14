@@ -69,7 +69,7 @@ def right_triangle_perimeter(base: float, height: float) -> float:
 
     hypotenuse = math.sqrt((base**2) + (height**2))
 
-    return base + height + hypotenuse;
+    return base + height + hypotenuse
 
 
 def right_triangle_area(base: float, height: float) -> float:
